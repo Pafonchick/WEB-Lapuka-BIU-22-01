@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика написания HTML</title>
+</head>
+<body>
+    <h1>Практика написания HTML</h1>
+
+    <h2>Список задач</h2>
+    <ul>
+        <li>Создать список из пяти пунктов.</li>
+        <li>Добавить изображения и цитату дня.</li>
+        <li>Создать ссылку на стороннюю страницу.</li>
+        <li>Добавить таблицу с именами двух студентов и их возрастом.</li>
+        <li>Использовать теги формы для ввода имени и комментария.</li>
+    </ul>
+
+    <h2>Пример кода</h2>
+    <p>Вот пример параграфа с текстом и ссылкой:<br>
+       Это пример текста. Вот <a href="https://yandex.ru/search/?text=котики&clid=2270455&banerid=0702004923%3A65661f9cef0d02a4b8bb44e4&win=622&lr=213">ссылка</a>, которую вы можете использовать.</p>
+
+    <p>Пример таблицы:</p>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Имя</th>
+            <th>Возраст</th>
+        </tr>
+        <tr>
+            <td>Иван</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Анна</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <div class="form-section">
+        <h2>Ваше задание</h2>
+        <p>В этой секции вы можете начать создавать свой HTML-код:</p>
+        <textarea rows="5" placeholder="Введите ваш HTML-код здесь..."></textarea>
+    </div>
+
+    <div class="form-section feedback-form">
+        <h2>Дополнительные элементы</h2>
+        <h3>Форма обратной связи</h3>
+        <form>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+            <label for="comment">Комментарий:</label>
+            <textarea id="comment" rows="4" placeholder="Введите комментарий..."></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <div class="quote-section">
+        <h3>Цитата дня</h3>
+        <p>"Единственный способ делать великую работу — это любить то, чем вы занимаетесь." — Стив Джобс</p>
+        <img src="https://cdn.blackfacts.com/uploads/blackfacts/facts/2021/10/23bad65500cbcaff69c41b4e0033524580ddd4de60c9fcf2fad60175b535f03b.jpg" alt="Чашка чая с закусками">
+    </div>
+
+    <div class="nested-list">
+        <h3>Список с вложенными элементами</h3>
+        <ul>
+            <li>Элемент 1
+                <ul>
+                    <li>Подэлемент 1.1</li>
+                    <li>Подэлемент 1.2</li>
+                </ul>
+            </li>
+            <li>Элемент 2</li>
+            <li>Удачи в изучении HTML!</li>
+        </ul>
+    </div>
+</body>
+</html>

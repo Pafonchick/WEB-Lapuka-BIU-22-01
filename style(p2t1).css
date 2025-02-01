@@ -1,0 +1,61 @@
+/* Лапука Павел БИУ-22-01*/
+#app {
+    font-family: sans-serif;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+  }
+  
+  .container {
+    text-align: left; 
+    width: 80%; 
+    max-width: 600px; 
+  }
+  
+  .counter-section, .input-section, .todo-section {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #FFB6C1; 
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FF80AB; 
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+  }
+  
+  .task-number {
+    margin-right: 5px;
+    min-width: 20px;
+  }
+  
+  .task-text {
+    flex-grow: 1; 
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    padding: 8px 15px;
+  }
+  
